@@ -1,0 +1,248 @@
+<!-- 05/05/2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>e-buy</title>
+
+
+    <!-- <style>
+        body {background-color: powderblue;}
+        h1   {color: blue;}
+        p    {color: red;}
+        </style> -->
+
+
+<!-- <link rel="stylesheet" href="styles.css"> -->
+    
+</head>
+<body>
+    <h1>Welcom to my site</h1>
+    <h3>new project</h3>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <a href="https://www.google.com">google</a><br><p>hello</p>
+    <img src="./car1.jpg" alt="car1"><img src="./car2.jpg">
+
+    <ul>
+        <li>
+            one
+        </li>
+        <li>two</li>
+        <ul>gfd</ul>
+        <ol>ther</ol>
+    </ul>
+
+
+    <p>i am<b> AKASH</b></p>
+    <strong> this is a Storng tag</strong><br>
+    <i>this is italic </i><br>
+    <em>This text is emphasized</em><br>
+    <small>This is some smaller text.</small>
+    <mark>milk</mark><br>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <del>blue</del>
+    <p>My favorite color is <del>blue</del> <ins>akash</ins>.</p><br>
+    <p>This is <sub>subscripted</sub> text.</p><br>
+    <p>This is <sup>superscripted</sup> text.</p>
+    
+
+
+
+
+    <!-- Chapter Summary
+    Use the HTML style attribute for inline styling
+    Use the HTML <style> element to define internal CSS
+    Use the HTML <link> element to refer to an external CSS file
+    Use the HTML <head> element to store <style> and <link> elements
+    Use the CSS color property for text colors
+    Use the CSS font-family property for text fonts
+    Use the CSS font-size property for text sizes
+    Use the CSS border property for borders
+    Use the CSS padding property for space inside the border
+    Use the CSS margin property for space outside the border -->
+
+
+
+    <!-- 
+        links             
+
+        By default, links will appear as follows in all browsers:
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+
+     -->
+    
+
+<!-- 
+     HTML Links - The target Attribute
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window -->
+
+
+
+
+<!-- 
+
+    link to mail 
+
+
+    <a href="mailto:someone@example.com">Send email</a>
+ -->
+
+
+
+
+ <!-- titel as link
+
+
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+-->
+
+<!-- 
+
+    Chapter Summary
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+ -->
+
+
+
+
+ <!-- jamp to bookmark
+
+
+
+<h2 id="C4">Chapter 4</h2>
+
+<a href="#C4">Jump to Chapter 4</a>
+
+-->
+
+
+<!-- 
+HTML Image Maps
+
+
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+
+How Does it Work?
+The idea behind an image map is that you should be able to perform different actions depending on where in the image you click.
+
+To create an image map you need an image, and some HTML code that describes the clickable areas.
+
+
+The image is inserted using the <img> tag. The only difference from other images is that you must add a usemap attribute:
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+
+
+The usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map.
+
+
+
+Create Image Map
+Then, add a <map> element.
+
+The <map> element is used to create an image map, and is linked to the image by using the required name attribute:
+
+
+    <map name="workmap">
+
+
+        The name attribute must have the same value as the <img>'s usemap attribute .
+
+The Areas
+Then, add the clickable areas.
+
+A clickable area is defined using an <area> element.
+
+Shape
+You must define the shape of the clickable area, and you can choose one of these values:
+
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+You must also define some coordinates to be able to place the clickable area onto the image. 
+
+Shape="rect"
+The coordinates for shape="rect" come in pairs, one for the x-axis and one for the y-axis.
+
+So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
+
+
+The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top:
+
+
+<area shape="rect" coords="34, 44, 270, 350" href="computer.htm">
+
+
+
+
+Shape="circle"
+To add a circle area, first locate the coordinates of the center of the circle:
+
+337,300
+
+
+Then specify the radius of the circle:
+
+44 pixels
+
+
+<area shape="circle" coords="337, 300, 44" href="coffee.htm">
+
+
+
+
+
+
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+
+
+
+
+
+ -->
+ 
+ 
+ 
+ <!-- Chapter Summary
+ Use the HTML <map> element to define an image map
+ Use the HTML <area> element to define the clickable areas in the image map
+ Use the HTML usemap attribute of the <img> element to point to an image map -->
+
+
+
+
+
+
+</body>
+</html>
