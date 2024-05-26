@@ -1,0 +1,5 @@
+payment = 500 paid
+day 1 : 2 hr
+day 2 : 1 hr
+day 3 : 2.5 hr
+day 4 : 1.5 + 1.5 total = 3hr

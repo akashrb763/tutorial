@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="./style.css" rel="stylesheet">
+
+    <style>
+        /* Descendant Selector */
+        /* div p {
+            background-color: yellow;
+            color: #b42103;
+        } */
+        /* background-color: blue;width: 50%; */
+
+        /* .top{
+            background-color: #2f03b4;
+            width: 80%;
+
+        } */
+
+        /* Child Selecto */
+        /* section > p {
+        background-color: yellow;
+        } */
+
+        /* Adjacent Sibling Selector */
+
+        /* div + p {
+        background-color: yellow;
+        } */
+
+        /* General Sibling Selector */
+        /* div ~ p {
+        background-color: yellow;
+        } */
+
+    </style>
+</head>
+<body>
+
+    <div class="top" >
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+        <p>London has over 13 million inhabitants.</p>
+    </div>
+    
+
+    <h2>Descendant Selector</h2>
+
+        <p style="font-size: 22px;font-family: 'Times New Roman';color: rgb(203, 4, 4);">The descendant selector matches all elements that are descendants of a specified element.</p>
+
+        <div class="">
+        <p>Paragraph 1 in the div.</p>
+        <p>Paragraph 2 in the div.</p>
+        <section><p>Paragraph 3 in the div.</p></section>
+        </div>
+
+        <p>Paragraph 4. Not in a div.</p>
+        <p>Paragraph 5. Not in a div.</p>
+    
+</body>
+</html>

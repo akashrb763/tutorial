@@ -1,0 +1,11 @@
+.top{
+    background-color: blueviolet;
+    color: #fff;
+    /* text-align: center; */
+    border: 2px solid #000000;
+    padding-left: 100px;
+}
+
+div ~ p {
+    background-color: yellow;
+    }

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Style the element with the id "myHeader" */
+        #myHeader {
+          background-color: lightblue;
+          color: black;
+          padding: 40px;
+          text-align: center;
+        }
+        
+        /* Style all elements with the class name "city" */
+        .city {
+          background-color: tomato;
+          color: white;
+          padding: 10px;
+        }
+        </style>
+</head>
+<body>
+    <a href="#bottom"> go to bottom </a><br>
+
+    <img src="./workplace.jpg"><br>
+
+    <a href="https://www.google.com">
+        <img src="./car2.jpg">
+    </a><br>
+
+    <h2 id="bottom"> bottom</h2>
+
+
+    <div style="background-color: blue;width: 50%;">
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+        <p>London has over 13 million inhabitants.</p>
+    </div>
+
+
+
+    <!-- An element with a unique id -->
+    <h1 id="myHeader">My Cities</h1>
+    
+    <!-- Multiple elements with same class -->
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+    
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+    <!-- <h1 id="myHeader">My Cities</h1> -->
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p><br>
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1972.700769584793!2d76.88048408967285!3d8.5573311007697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05befbad688f91%3A0x58e8fb83cf5ddf6a!2sTechnopark%20Trivandrum!5e0!3m2!1sen!2sin!4v1716708364626!5m2!1sen!2sin" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+    <!-- css -->
+
+    <!-- CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories: -->
+
+
+<!-- Simple selectors (select elements based on name, id, class) -->
+
+<!-- Combinator selectors (select elements based on a specific relationship between them) -->
+
+<!-- Pseudo-class selectors (select elements based on a certain state) -->
+
+
+<!-- A CSS selector can contain more than one simple selector. Between the simple selectors, 
+    we can include a combinator.
+
+There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~) -->
+
+
+<!-- Descendant Selector
+The descendant selector matches all elements that are descendants of a specified element.
+
+The following example selects all <p> elements inside <div> elements:  -->
+
+
+    <style>
+        div p {
+            background-color: yellow;
+        }
+    </style>
+
+<!-- Child Selector (>)
+The child selector selects all elements that are the children of a specified element.
+
+The following example selects all <p> elements that are children of a <div> element: -->
+
+    <style>
+        div > p {
+            background-color: yellow;
+        }
+    </style>
+    
+    <!-- Adjacent Sibling Selector (+) -->
+<!-- The adjacent sibling selector is used to select an element that is directly after 
+    another specific element.
+Sibling elements must have the same parent element, and "adjacent" means "immediately
+ following".
+
+The following example selects the first <p> element that are placed immediately 
+    after <div> elements: -->
+    <style>
+        div + p {
+        background-color: yellow;
+        }
+    </style>
+
+<!-- General Sibling Selector (~) -->
+<!-- The general sibling selector selects all elements that are next siblings of a specified element.
+The following example selects all <p> elements that are next siblings of <div> elements: -->
+
+    <style>
+        div ~ p {
+            background-color: yellow;
+            }
+    </style>
+    
+
+
+
+</body>
+</html>
