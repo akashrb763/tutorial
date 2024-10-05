@@ -7,3 +7,6 @@ day 4 : 1.5 + 1.5 total = 3hr
 3 days -------
 payment = 500 paid
 day 8 : 1 hr
+
+
+1 hr
