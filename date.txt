@@ -9,4 +9,8 @@ payment = 500 paid
 day 8 : 1 hr
 
 
+restarted
 1 hr
+
+05/10/2024 --- 2hr
+07/10/2024 --- 2hr
